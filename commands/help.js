@@ -5,9 +5,9 @@ const path = require('path');
 async function helpCommand(sock, chatId, channelLink) {
     const helpMessage = `
 ╔═══════════════════╗
-   *🤖 ${settings.botName || 'KnightBot-MD'}*  
+   *🤖 ${settings.botName || 'Bot Si Ganteng'}*  
    Version: *${settings.version || '1.0.0'}*
-   by ${settings.botOwner || 'Mr Unique Hacker'}
+   by ${settings.botOwner || 'Professor'}
    YT : ${global.ytch}
 ╚═══════════════════╝
 
@@ -143,11 +143,11 @@ async function helpCommand(sock, chatId, channelLink) {
 
 ╔═══════════════════╗
 💻 *Github Commands:*
-║ ➤ .git
-║ ➤ .github
-║ ➤ .sc
-║ ➤ .script
-║ ➤ .repo
+║ ➤ .!
+║ ➤ .kalo mau beli chat
+║ ➤ .owner
+║ ➤ .buy
+║ ➤ .buy
 ╚═══════════════════╝
 
 Join our channel for updates:`;
